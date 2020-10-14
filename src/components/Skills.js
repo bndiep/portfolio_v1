@@ -12,7 +12,6 @@ const SkillStyle = styled.div `
         justify-content: center;
         flex: 1 1 25%;
         text-align: center;
-        border: 1px solid #EE4266;
     }
 
     .icons {
@@ -49,8 +48,10 @@ class Skills extends Component {
     render() {
         let {illustrator, photoshop, postgresql, rubyOnRails, zoom } = this.props
         return(
-            <SkillStyle>
+            <div>
                 <h2 id="skills">skills</h2>
+                <SkillStyle>
+                
                 <div id="frontend">
                     <h4>frontend</h4>
                     <ul className="icons">
@@ -150,8 +151,8 @@ class Skills extends Component {
                         </li>
                     </ul>
                 </div>    
-                    
             </SkillStyle>
+            </div>  
         )
     }
 }

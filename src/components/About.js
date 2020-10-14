@@ -17,7 +17,7 @@ const AboutStyles = styled.div`
         }
     }
 
-    .contact {
+    .contact, .resume {
         margin: 0px 5px;
         background-color: #3BCEAC;
         border: none;
@@ -78,7 +78,7 @@ class About extends Component {
                     </div>
                     
                     <div className="contact-links">
-                        <Button className="contact">Contact Me! <span className="copy">(Copy Email)</span></Button>
+                        <Button className="contact">Contact Me</Button>
                         <Button
                             className="linkedin"
                             a href="https://www.linkedin.com/in/bachdiep"
@@ -104,6 +104,13 @@ class About extends Component {
                         <FontAwesomeIcon
                             icon={ faGithubAlt }
                             size="1.5x" />
+                        </Button>
+
+                        <Button 
+                            className="resume"
+                            a href=""
+                            target="_blank">
+                                Resume
                         </Button>
                     </div>
                 </AboutStyles>
