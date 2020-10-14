@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.8cbdb7b0.chunk.css",
+    "main.js": "/portfolio/static/js/main.df7956aa.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.df7956aa.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
+    "static/css/2.11829350.chunk.css": "/portfolio/static/css/2.11829350.chunk.css",
+    "static/js/2.52ce56a3.chunk.js": "/portfolio/static/js/2.52ce56a3.chunk.js",
+    "static/js/2.52ce56a3.chunk.js.map": "/portfolio/static/js/2.52ce56a3.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.4fc6f5ab5a8f5a0ef7e01edd6e02278e.js": "/portfolio/precache-manifest.4fc6f5ab5a8f5a0ef7e01edd6e02278e.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/2.11829350.chunk.css.map": "/portfolio/static/css/2.11829350.chunk.css.map",
+    "static/css/main.8cbdb7b0.chunk.css.map": "/portfolio/static/css/main.8cbdb7b0.chunk.css.map",
+    "static/js/2.52ce56a3.chunk.js.LICENSE.txt": "/portfolio/static/js/2.52ce56a3.chunk.js.LICENSE.txt",
+    "static/media/illustrator.svg": "/portfolio/static/media/illustrator.c03b5122.svg",
+    "static/media/photoshop.svg": "/portfolio/static/media/photoshop.b8b18a8e.svg",
+    "static/media/postgresql.svg": "/portfolio/static/media/postgresql.c9df0bf2.svg",
+    "static/media/profilephoto_temp.jpg": "/portfolio/static/media/profilephoto_temp.0e58a87c.jpg",
+    "static/media/robot.png": "/portfolio/static/media/robot.ea795c13.png",
+    "static/media/ruby-on-rails.svg": "/portfolio/static/media/ruby-on-rails.fa4f3db7.svg",
+    "static/media/thumbnail_1.jpeg": "/portfolio/static/media/thumbnail_1.5a545459.jpeg",
+    "static/media/thumbnail_2.jpeg": "/portfolio/static/media/thumbnail_2.d9ae92a5.jpeg",
+    "static/media/thumbnail_3.jpeg": "/portfolio/static/media/thumbnail_3.c160e4ad.jpeg",
+    "static/media/thumbnail_4.jpeg": "/portfolio/static/media/thumbnail_4.c31df9e0.jpeg",
+    "static/media/zoom.svg": "/portfolio/static/media/zoom.4de98208.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.209c2d7e.js",
+    "static/css/2.11829350.chunk.css",
+    "static/js/2.52ce56a3.chunk.js",
+    "static/css/main.8cbdb7b0.chunk.css",
+    "static/js/main.df7956aa.chunk.js"
+  ]
+}
