@@ -1,26 +1,7 @@
-.App {
-  text-align: center;
+#about, #skills{
+  padding: 100px 0px;
 }
 
-.nav a {
-  float: left;
-  padding: 10px;
-  display: block;
-  text-align: center;
-  text-decoration: none;
-}
-
-.nav a:hover {
-  border-bottom: 3px solid black;
-}
-
-.nav a.active {
-  border-bottom: 3px solid black;
-}
-
-
-p {
-  background-color: lightcyan;
-  margin: 0px 50px;
-  padding: 10px;
+#projects {
+  padding: 0px 10px;
 }

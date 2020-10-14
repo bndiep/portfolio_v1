@@ -1,10 +1,112 @@
 import React, { Component } from 'react';
+import { Button } from 'react-bootstrap'
+import styled from 'styled-components'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedinIn, faTwitter, faGithubAlt } from '@fortawesome/free-brands-svg-icons'
+
+const AboutStyles = styled.div`
+    span {
+            font-style: italic;
+            font-weight: bold;
+        }
+
+    .contact-links {
+        display: flex;
+        flex-wrap: flex;
+        justify-content: center;
+        }
+    }
+
+    .contact {
+        margin: 0px 5px;
+        background-color: #3BCEAC;
+        border: none;
+        border-radius: 50px;
+        &:hover{
+            background-color: #FFD23F;
+            opacity: 80%
+        }
+    }
+
+    .copy {
+        font-size: 10px;
+    }
+
+    .linkedin {
+        margin: 0px 5px;
+        background-color: #EE4266;
+        border: none;
+        border-radius: 100%;
+        
+    }
+
+    .twitter {
+        margin: 0px 5px;
+        padding: 5px 10.5px;
+        background-color: #1DA1F2;
+        border: none;
+        border-radius: 100%;
+    }
+
+    .github-icon {
+        margin: 0px 5px;
+        padding: 5px 11px;
+        background-color: #540D6E;
+        border: none;
+        border-radius: 100%
+    }
+`
+
 class About extends Component {
+    constructor(props) {
+        super(props)
+    }
+    
+
     render() {
         return (
-            <div className = "about">
-                <h2>who am i?</h2>
-                <p>Sometimes you’ll see me as my alias ‘Bot’ but I can assure you that I am very much a human. I go by Bach, which can be easily confused with ‘bot.’ I am a web developer based in San Diego, who is fascinated in art and tech and how those two components build a connection between people. One aspect of web development that drew me in was the challenge of creating something new and tangeable that a user can manipulate. Adding cool colors and effects to an application is another plus. **Responsive</p>
+            <div id="about">
+                <AboutStyles>
+                    <h2>who am i?</h2>
+                    <div className="blurb">
+                        <p>
+                        "Bach"? The <span>composer</span>? The cluck of a <span>chicken</span>? Ahh, maybe the <span>terminator’s</span> signature phrase?
+                        </p>
+                        <p>
+                        Nope, I'm just your everyday human being who goes by Bạch, or ‘'Bot' in close circles. I am a web developer based in San Diego, CA with a fascination in tech, art, and how those two concepts bridge connections between people. Web development is the culmination of those two very concepts: it’s the challenge of making a digital product <span>tangible</span>, and adding cool colors and effects to the user experience is the artistic flair.
+                        </p>
+                    </div>
+                    
+                    <div className="contact-links">
+                        <Button className="contact">Contact Me! <span className="copy">(Copy Email)</span></Button>
+                        <Button
+                            className="linkedin"
+                            a href="https://www.linkedin.com/in/bachdiep"
+                            target="_blank">
+                        <FontAwesomeIcon
+                            icon={ faLinkedinIn }
+                            size="1x" />
+                        </Button>
+
+                        <Button
+                            className="twitter"
+                            a href="https://www.twitter.com/itsabach"
+                            target="_blank">
+                        <FontAwesomeIcon
+                            icon={ faTwitter }
+                            size="1x" />
+                        </Button>
+
+                        <Button
+                            className="github-icon"
+                            a href="https://www.github.com/bndiep"
+                            target="_blank">
+                        <FontAwesomeIcon
+                            icon={ faGithubAlt }
+                            size="1.5x" />
+                        </Button>
+                    </div>
+                </AboutStyles>
             </div>
         )
     }
