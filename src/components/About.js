@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Button } from 'react-bootstrap'
 import styled from 'styled-components'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFile } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedinIn, faTwitter, faGithubAlt } from '@fortawesome/free-brands-svg-icons'
 
 const AboutStyles = styled.div`
@@ -85,7 +86,8 @@ class About extends Component {
                             target="_blank">
                         <FontAwesomeIcon
                             icon={ faLinkedinIn }
-                            size="1x" />
+                            size="1x"
+                            alt="linkedin logo" />
                         </Button>
 
                         <Button
@@ -94,7 +96,8 @@ class About extends Component {
                             target="_blank">
                         <FontAwesomeIcon
                             icon={ faTwitter }
-                            size="1x" />
+                            size="1x"
+                            alt="twitter logo" />
                         </Button>
 
                         <Button
@@ -103,14 +106,18 @@ class About extends Component {
                             target="_blank">
                         <FontAwesomeIcon
                             icon={ faGithubAlt }
-                            size="1.5x" />
+                            size="1.5x"
+                            alt="github logo" />
                         </Button>
 
                         <Button 
                             className="resume"
                             a href=""
                             target="_blank">
-                                Resume
+                        <FontAwesomeIcon
+                            icon={ faFile }
+                            size="1x"
+                            alt="resume icon" />
                         </Button>
                     </div>
                 </AboutStyles>
