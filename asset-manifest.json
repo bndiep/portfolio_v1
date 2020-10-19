@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.56bb83db.chunk.css",
-    "main.js": "/portfolio/static/js/main.ad30b2a9.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.ad30b2a9.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.860bbb60.chunk.css",
+    "main.js": "/portfolio/static/js/main.b0949242.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.b0949242.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
     "static/css/2.11829350.chunk.css": "/portfolio/static/css/2.11829350.chunk.css",
-    "static/js/2.52ce56a3.chunk.js": "/portfolio/static/js/2.52ce56a3.chunk.js",
-    "static/js/2.52ce56a3.chunk.js.map": "/portfolio/static/js/2.52ce56a3.chunk.js.map",
+    "static/js/2.dea5aeb9.chunk.js": "/portfolio/static/js/2.dea5aeb9.chunk.js",
+    "static/js/2.dea5aeb9.chunk.js.map": "/portfolio/static/js/2.dea5aeb9.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.45fb2415784dde128b07bb04e8f9e709.js": "/portfolio/precache-manifest.45fb2415784dde128b07bb04e8f9e709.js",
+    "precache-manifest.f4418f730be0be5a71bb5771125bd7d5.js": "/portfolio/precache-manifest.f4418f730be0be5a71bb5771125bd7d5.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/portfolio/static/css/2.11829350.chunk.css.map",
-    "static/css/main.56bb83db.chunk.css.map": "/portfolio/static/css/main.56bb83db.chunk.css.map",
-    "static/js/2.52ce56a3.chunk.js.LICENSE.txt": "/portfolio/static/js/2.52ce56a3.chunk.js.LICENSE.txt",
+    "static/css/main.860bbb60.chunk.css.map": "/portfolio/static/css/main.860bbb60.chunk.css.map",
+    "static/js/2.dea5aeb9.chunk.js.LICENSE.txt": "/portfolio/static/js/2.dea5aeb9.chunk.js.LICENSE.txt",
     "static/media/illustrator.svg": "/portfolio/static/media/illustrator.c03b5122.svg",
     "static/media/photoshop.svg": "/portfolio/static/media/photoshop.b8b18a8e.svg",
     "static/media/postgresql.svg": "/portfolio/static/media/postgresql.c9df0bf2.svg",
@@ -29,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
     "static/css/2.11829350.chunk.css",
-    "static/js/2.52ce56a3.chunk.js",
-    "static/css/main.56bb83db.chunk.css",
-    "static/js/main.ad30b2a9.chunk.js"
+    "static/js/2.dea5aeb9.chunk.js",
+    "static/css/main.860bbb60.chunk.css",
+    "static/js/main.b0949242.chunk.js"
   ]
 }
