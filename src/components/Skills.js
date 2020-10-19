@@ -7,6 +7,7 @@ import { faHtml5, faCss3Alt, faGitAlt, faFigma, faJs, faReact, faSlack  } from '
 const SkillStyle = styled.div `
     display: flex;
     flex-wrap: wrap;
+    padding: 0px 20px;
 
     #frontend, #backend, #version-control, #virtual-space, #design {
         justify-content: center;
@@ -47,7 +48,6 @@ class Skills extends Component {
             <div>
                 <h2 id="skills">skills</h2>
                 <SkillStyle>
-                
                 <div id="frontend">
                     <h4>frontend</h4>
                     <ul className="icons">

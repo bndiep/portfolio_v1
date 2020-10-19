@@ -19,7 +19,7 @@ const AboutStyles = styled.div`
 
     .contact, .resume {
         margin: 0px 5px;
-        background-color: #3BCEAC;
+        background-color: #0EAD69;
         border: none;
         border-radius: 50px;
         &:hover{

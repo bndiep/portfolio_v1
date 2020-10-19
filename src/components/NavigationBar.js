@@ -16,7 +16,7 @@ const Styles = styled.div`
     .navbar-brand, .navbar-nav .nav-link {
         color: white;
         &:focus {
-            color: orange;
+            color: #0EAD69;
         }
     }
 
@@ -28,7 +28,7 @@ const Styles = styled.div`
         color: white;
 
         &:active {
-            color: orange;
+            color: #0EAD69;
         }
     }
 `;
