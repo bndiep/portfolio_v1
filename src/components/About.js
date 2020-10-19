@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Button } from 'react-bootstrap'
 import styled from 'styled-components'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFile } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedinIn, faTwitter, faGithubAlt } from '@fortawesome/free-brands-svg-icons'
 
 const AboutStyles = styled.div`
@@ -114,10 +113,7 @@ class About extends Component {
                             className="resume"
                             a href=""
                             target="_blank">
-                        <FontAwesomeIcon
-                            icon={ faFile }
-                            size="1x"
-                            alt="resume icon" />
+                            Resume
                         </Button>
                     </div>
                 </AboutStyles>

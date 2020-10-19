@@ -7,7 +7,7 @@ const Styles = styled.div`
     .navbar {
         background-color: #FFD23F;
         border: 4px solid black;
-        box-shadow: 0px 2px 4px #888888;
+        box-shadow: 0px 4px 2px -2px #C1C1C1;
         width: 100%;
         z-index: 9999;
         position: fixed;
@@ -15,7 +15,6 @@ const Styles = styled.div`
 
     .navbar-brand, .navbar-nav .nav-link {
         color: white;
-        
         &:focus {
             color: orange;
         }

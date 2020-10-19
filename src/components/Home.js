@@ -41,7 +41,7 @@ class Home extends Component {
                         <h2>WELCOME, FRIEND.</h2>
                         <h2>MY NAME IS <span className="name">BACH</span>.</h2>
                     </div>
-                    
+                    <br />
                     <img id="headshot" src={ this.props.headshot }/>
                 </HomeStyles>
             </div>

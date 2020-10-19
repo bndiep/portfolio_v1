@@ -1,9 +1,9 @@
-#about, #skills{
-  padding: 100px 0px;
+#about {
+  padding: 14vh 0vh;
 }
 
-#projects {
-  padding: 0px 10px;
+#skills, #projects {
+  padding: 14vh 1.5vh 0vh 1.5vh;
 }
 
 h2 {
