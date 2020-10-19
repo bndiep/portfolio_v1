@@ -17,15 +17,11 @@ const SkillStyle = styled.div `
     .icons {
         display: flex;
         flex-wrap: wrap;
-    
-    }
-
-    .classname {
-        display: flex;
-        flex-direction: row;
     }
     
     ul {
+        margin: 0px;
+        padding: 0px;
         justify-content: center;
     }
 
