@@ -40,7 +40,7 @@ class NavigationBar extends Component {
     render() {
     return (
         <Styles>
-            <Navbar expand="lg" id="navbar">
+            <Navbar collapseOnSelect expand="lg" id="navbar">
                 <Navbar.Brand a href="/">
                     <img src={ this.props.robot } height="40px" alt="robot logo" />
                 </Navbar.Brand>
