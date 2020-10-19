@@ -50,11 +50,11 @@ class NavigationBar extends Component {
                     </span>
                 </Navbar.Toggle>
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Navbar.Toggle aria-controls="basic-navbar-nav">
+                    {/* <Navbar.Toggle aria-controls="basic-navbar-nav">
                         <span>
                             <FontAwesomeIcon icon={ faTimes } />
                         </span>
-                    </Navbar.Toggle>
+                    </Navbar.Toggle> */}
                     <Nav className="ml-auto">
                         <Nav.Item><Nav.Link a href="#home">Home</Nav.Link></Nav.Item>
                         <Nav.Item><Nav.Link a href="#about">About</Nav.Link></Nav.Item>
