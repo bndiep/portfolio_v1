@@ -111,7 +111,7 @@ class About extends Component {
 
                         <Button 
                             className="resume"
-                            a href=""
+                            a href={ this.props.resume }
                             target="_blank">
                             Resume
                         </Button>
