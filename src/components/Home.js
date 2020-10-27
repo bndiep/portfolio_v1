@@ -4,11 +4,10 @@ import styled from 'styled-components'
 const HomeStyles = styled.div`
     padding: 100px 0px;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
 
     h2 {
-        font-size: 75px;
+        font-size: 7vw;
         text-align: right;
         padding: 10px;
     }
@@ -23,13 +22,14 @@ const HomeStyles = styled.div`
     }
 
     #headshot {
-        float: right;
-        height: 32vw;
-        width: auto;
+        width: 30%;
+        height: auto;
         border: 5px solid black;
         outline: solid #EE4266; 
         box-shadow: 10px 10px #FFD23F;
         padding: 10px;
+        display: block;
+        margin: auto;
         }
     }
 `
@@ -43,7 +43,7 @@ class Home extends Component {
                         <h2>MY NAME IS <span className="name">BACH</span>.</h2>
                     </div>
                     <br />
-                    <img id="headshot" src={ this.props.headshot }/>
+                    <img id="headshot" src={ this.props.headshot } alt="3/4 portrait of Bach Diep"/>
                 </HomeStyles>
             </div>
         )

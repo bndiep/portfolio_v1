@@ -45,10 +45,6 @@ const CardStyles = styled.div`
 `
 
 class Projects extends Component {
-    constructor(props) {
-        super(props)
-    }
-
     render() {
         let { thumbnail1, thumbnail2, thumbnail3, thumbnail4 } = this.props
     return (

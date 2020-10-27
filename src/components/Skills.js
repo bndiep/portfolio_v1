@@ -39,9 +39,7 @@ const SkillStyle = styled.div `
 
 
 class Skills extends Component {
-    constructor(props) {
-        super(props)
-    }
+
     render() {
         let {illustrator, photoshop, postgresql, rubyOnRails, zoom } = this.props
         return(

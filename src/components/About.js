@@ -58,11 +58,6 @@ const AboutStyles = styled.div`
 `
 
 class About extends Component {
-    constructor(props) {
-        super(props)
-    }
-    
-
     render() {
         return (
             <div id="about">
@@ -110,7 +105,7 @@ class About extends Component {
                             target="_blank">
                         <FontAwesomeIcon
                             icon={ faGithubAlt }
-                            size="1.5x"
+                            size="1x"
                             alt="github logo" />
                         </Button>
 
