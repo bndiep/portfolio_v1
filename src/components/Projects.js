@@ -56,7 +56,7 @@ class Projects extends Component {
             <h2 id="projects">projects</h2>
             <CardStyles>
                 <Card className="card" style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={ thumbnail1 } />
+                <Card.Img variant="top" src={ thumbnail1 } alt="Artist E-40 displayed in a React application"/>
                 <Card.Body>
                     <Card.Title>React Here, Tryna Function</Card.Title>
                     <Card.Text>
@@ -79,7 +79,7 @@ class Projects extends Component {
                 </Card>
 
                 <Card className="card" style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={ thumbnail2 } />
+                <Card.Img variant="top" src={ thumbnail2 } alt="Colorful tic-tac-toe board"/>
                 <Card.Body>
                     <Card.Title>Tic-Tac-Toe</Card.Title>
                     <Card.Text>
@@ -101,7 +101,7 @@ class Projects extends Component {
                 </Card>
 
                 <Card className="card" style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={ thumbnail3 } />
+                <Card.Img variant="top" src={ thumbnail3 } alt="Words that ready to be translated into Pig Latin"/>
                 <Card.Body>
                     <Card.Title>Pig Latin</Card.Title>
                     <Card.Text>
@@ -123,7 +123,7 @@ class Projects extends Component {
                 </Card>
 
                 <Card className="card" style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={ thumbnail4 } />
+                <Card.Img variant="top" src={ thumbnail4 } alt="Front page of a blog that contains posts"/>
                 <Card.Body>
                     <Card.Title>Blog App</Card.Title>
                     <Card.Text>
