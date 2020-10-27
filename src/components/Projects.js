@@ -38,6 +38,10 @@ const CardStyles = styled.div`
         color: #fff;
         float: right;
     }
+
+    span {
+        font-style: italic;
+    }
 `
 
 class Projects extends Component {
@@ -54,52 +58,83 @@ class Projects extends Component {
                 <Card className="card" style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={ thumbnail1 } />
                 <Card.Body>
-                    <Card.Title>PROJECT 1</Card.Title>
+                    <Card.Title>React Here, Tryna Function</Card.Title>
                     <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
+                        Created using React given a time frame of a day.
+                        An homage to E-40's song <span>Function</span>, this party app allows the user to input their budget and number of guests to give them a list of typical party items they will need to purchase. Go over budget, and your guests will have to pitch in.
                     </Card.Text>
-                    <Button className="github-button">GitHub</Button>
-                    <Button className="demo">Demo</Button> 
+                    <Button
+                        className="github-button"
+                        a href="https://github.com/bndiep/party-app"
+                        target="_blank">
+                        GitHub
+                        </Button>
+                    <Button
+                        className="demo"
+                        a href="https://react-here-tryna-function-app.netlify.app"
+                        target="blank">
+                        Demo
+                    </Button> 
                 </Card.Body>
                 </Card>
 
                 <Card className="card" style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={ thumbnail2 } />
                 <Card.Body>
-                    <Card.Title>PROJECT 2</Card.Title>
+                    <Card.Title>Tic-Tac-Toe</Card.Title>
                     <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
+                        Created in React. A simple implementation of Tic-Tac-Toe intended to be played by two users. The app will display the current player to keep track of the user's turns. There are three possible outcomes: X wins, O wins, or a cats game.
                     </Card.Text>
-                    <Button className="github-button">GitHub</Button>
-                    <Button className="demo">Demo</Button>
+                    <Button
+                        className="github-button"
+                        a href="https://github.com/bndiep/tic-tac-toe-app"
+                        target="_blank">
+                        GitHub
+                    </Button>
+                    <Button
+                        className="demo"
+                        a href="https://tictactoe-app.netlify.app"
+                        target="_blank">
+                        Demo
+                    </Button>
                 </Card.Body>
                 </Card>
 
                 <Card className="card" style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={ thumbnail3 } />
                 <Card.Body>
-                    <Card.Title>PROJECT 3</Card.Title>
+                    <Card.Title>Pig Latin</Card.Title>
                     <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
+                        Created in React. An app that allows the user to convert their English words into Pig Latin. Has the ability to translate words starting with 'qu' and words in which 'y' acts a vowel. Maybe you can use this app when sending secret messages!
                     </Card.Text>
-                    <Button className="github-button">GitHub</Button>
-                    <Button className="demo">Demo</Button>
+                    <Button
+                        className="github-button"
+                        a href="https://github.com/bndiep/pig-latin-app"
+                        target="_blank">
+                        GitHub
+                    </Button>
+                    <Button
+                        className="demo"
+                        a href="https://react-pig-latin-app.netlify.app"
+                        target="_blank">
+                        Demo
+                    </Button>
                 </Card.Body>
                 </Card>
 
                 <Card className="card" style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={ thumbnail4 } />
                 <Card.Body>
-                    <Card.Title>PROJECT 4</Card.Title>
+                    <Card.Title>Blog App</Card.Title>
                     <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
+                    Created using Ruby on Rails. A simple blog app that demonstrates RESTful routes. The user is able to create, view, edit, and delete a blog post. Strong params exist to ensure the user includes all fields in their blog post submission.
                     </Card.Text>
-                    <Button className="github-button">GitHub</Button>
-                    <Button className="demo">Demo</Button>
+                    <Button
+                        className="github-button"
+                        a href="https://github.com/bndiep/blog-app"
+                        target="_blank">
+                        GitHub
+                    </Button>
                 </Card.Body>
                 </Card>
             </CardStyles>  

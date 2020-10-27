@@ -73,7 +73,7 @@ class About extends Component {
                         "Bach"? The <span>composer</span>? The cluck of a <span>chicken</span>? Ahh, maybe the <span>terminator’s</span> signature phrase?
                         </p>
                         <p>
-                        Nope, I'm just your everyday human being who goes by Bạch, or ‘'Bot' in close circles. I am a web developer based in San Diego, CA with a fascination in tech, art, and how those two concepts bridge connections between people. Web development is the culmination of those two very concepts: it’s the challenge of making a digital product <span>tangible</span>, and adding cool colors and effects to the user experience is the artistic flair.
+                        Nope, I'm just your everyday human being who goes by Bạch, or ‘'Bot' in close circles. I am a web developer based in San Diego, CA with a fascination for tech, art, and how those two concepts bridge connections between people. Web development is the culmination of those two very concepts: it’s the challenge of making a digital product <span>tangible</span>, and adding cool colors and effects to the user experience is the artistic flair.
                         </p>
                     </div>
                     
