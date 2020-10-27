@@ -24,7 +24,7 @@ const HomeStyles = styled.div`
 
     #headshot {
         float: right;
-        height: 40vw;
+        height: 32vw;
         width: auto;
         border: 5px solid black;
         outline: solid #EE4266; 

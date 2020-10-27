@@ -34,7 +34,7 @@ const AboutStyles = styled.div`
 
     .linkedin {
         margin: 0px 5px;
-        background-color: #EE4266;
+        background-color: #000;
         border: none;
         border-radius: 100%;
         
@@ -43,7 +43,7 @@ const AboutStyles = styled.div`
     .twitter {
         margin: 0px 5px;
         padding: 5px 10.5px;
-        background-color: #1DA1F2;
+        background-color: #000;
         border: none;
         border-radius: 100%;
     }
@@ -51,7 +51,7 @@ const AboutStyles = styled.div`
     .github-icon {
         margin: 0px 5px;
         padding: 5px 11px;
-        background-color: #540D6E;
+        background-color: #000;
         border: none;
         border-radius: 100%
     }
@@ -78,7 +78,12 @@ class About extends Component {
                     </div>
                     
                     <div className="contact-links">
-                        <Button className="contact">Contact Me</Button>
+                        <Button
+                            className="contact"
+                            a href="mailto:bachdiep.dev@gmail.com"
+                            >
+                            Contact Me
+                        </Button>
                         <Button
                             className="linkedin"
                             a href="https://www.linkedin.com/in/bachdiep"
