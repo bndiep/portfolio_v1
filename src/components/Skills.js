@@ -18,6 +18,7 @@ const SkillStyle = styled.div `
     .icons {
         display: flex;
         flex-wrap: wrap;
+        align-items: flex-end;
     }
     
     ul {
