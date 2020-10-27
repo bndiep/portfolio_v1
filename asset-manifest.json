@@ -1,29 +1,29 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.860bbb60.chunk.css",
-    "main.js": "/portfolio/static/js/main.f119bd65.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.f119bd65.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.3d96f106.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.3d96f106.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
     "static/css/2.11829350.chunk.css": "/portfolio/static/css/2.11829350.chunk.css",
     "static/js/2.dea5aeb9.chunk.js": "/portfolio/static/js/2.dea5aeb9.chunk.js",
     "static/js/2.dea5aeb9.chunk.js.map": "/portfolio/static/js/2.dea5aeb9.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.b0b1c2bf9b8549fd8c9ac6bd253f914c.js": "/portfolio/precache-manifest.b0b1c2bf9b8549fd8c9ac6bd253f914c.js",
+    "precache-manifest.c27b0422f703b4a822d32a396943bf7e.js": "/portfolio/precache-manifest.c27b0422f703b4a822d32a396943bf7e.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/portfolio/static/css/2.11829350.chunk.css.map",
     "static/css/main.860bbb60.chunk.css.map": "/portfolio/static/css/main.860bbb60.chunk.css.map",
     "static/js/2.dea5aeb9.chunk.js.LICENSE.txt": "/portfolio/static/js/2.dea5aeb9.chunk.js.LICENSE.txt",
     "static/media/illustrator.svg": "/portfolio/static/media/illustrator.c03b5122.svg",
     "static/media/photoshop.svg": "/portfolio/static/media/photoshop.b8b18a8e.svg",
+    "static/media/pig-latin.png": "/portfolio/static/media/pig-latin.547efa0f.png",
     "static/media/postgresql.svg": "/portfolio/static/media/postgresql.c9df0bf2.svg",
     "static/media/profilephoto_temp.jpg": "/portfolio/static/media/profilephoto_temp.0e58a87c.jpg",
+    "static/media/rails-blog.png": "/portfolio/static/media/rails-blog.714c8f60.png",
+    "static/media/react-here.png": "/portfolio/static/media/react-here.c15a2ad5.png",
     "static/media/robot.png": "/portfolio/static/media/robot.ea795c13.png",
     "static/media/ruby-on-rails.svg": "/portfolio/static/media/ruby-on-rails.fa4f3db7.svg",
-    "static/media/thumbnail_1.jpeg": "/portfolio/static/media/thumbnail_1.5a545459.jpeg",
-    "static/media/thumbnail_2.jpeg": "/portfolio/static/media/thumbnail_2.d9ae92a5.jpeg",
-    "static/media/thumbnail_3.jpeg": "/portfolio/static/media/thumbnail_3.c160e4ad.jpeg",
-    "static/media/thumbnail_4.jpeg": "/portfolio/static/media/thumbnail_4.c31df9e0.jpeg",
+    "static/media/tic-tac-toe.png": "/portfolio/static/media/tic-tac-toe.d9b44c81.png",
     "static/media/zoom.svg": "/portfolio/static/media/zoom.4de98208.svg"
   },
   "entrypoints": [
@@ -31,6 +31,6 @@
     "static/css/2.11829350.chunk.css",
     "static/js/2.dea5aeb9.chunk.js",
     "static/css/main.860bbb60.chunk.css",
-    "static/js/main.f119bd65.chunk.js"
+    "static/js/main.3d96f106.chunk.js"
   ]
 }
