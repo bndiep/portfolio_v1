@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e91cc9cc898b4ed328cc2dcef5bacc6b",
+    "revision": "dc28557c5dab4b7d16a71cb6e5992e36",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "17ff44e0c8f8b7f9bc89",
+    "revision": "ddb4142b170cd39093f8",
     "url": "/portfolio/static/css/2.11829350.chunk.css"
   },
   {
-    "revision": "aa115d9fadd9b22d0959",
-    "url": "/portfolio/static/css/main.860bbb60.chunk.css"
+    "revision": "0459b88ddbbdfa92d1e5",
+    "url": "/portfolio/static/css/main.33060891.chunk.css"
   },
   {
-    "revision": "17ff44e0c8f8b7f9bc89",
-    "url": "/portfolio/static/js/2.dea5aeb9.chunk.js"
+    "revision": "ddb4142b170cd39093f8",
+    "url": "/portfolio/static/js/2.e7f007cd.chunk.js"
   },
   {
     "revision": "42780b3dfc4008075422892f0026a2f6",
-    "url": "/portfolio/static/js/2.dea5aeb9.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.e7f007cd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "aa115d9fadd9b22d0959",
-    "url": "/portfolio/static/js/main.e37cc1dd.chunk.js"
+    "revision": "0459b88ddbbdfa92d1e5",
+    "url": "/portfolio/static/js/main.736736e5.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
     "url": "/portfolio/static/js/runtime-main.209c2d7e.js"
+  },
+  {
+    "revision": "d1005ac09978561e3167765bfb3da3a8",
+    "url": "/portfolio/static/media/Bach_Diep_Resume.d1005ac0.pdf"
   },
   {
     "revision": "c03b512250116c030b4e79167acae244",
