@@ -4,6 +4,8 @@ import styled from 'styled-components'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedinIn, faTwitter, faGithubAlt } from '@fortawesome/free-brands-svg-icons'
 
+import resume from '../assets/Bach_Diep_Resume.pdf'
+
 const AboutStyles = styled.div`
     span {
             font-style: italic;
@@ -111,7 +113,7 @@ class About extends Component {
 
                         <Button 
                             className="resume"
-                            a href={ this.props.resume }
+                            a href={ resume }
                             target="_blank">
                             Resume
                         </Button>
