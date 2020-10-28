@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import styled from 'styled-components'
 
+import headshot from '../assets/profilephoto_temp.jpg'
+
 const HomeStyles = styled.div`
     padding: 100px 0px;
     display: flex;
@@ -43,7 +45,7 @@ class Home extends Component {
                         <h2>MY NAME IS <span className="name">BACH</span>.</h2>
                     </div>
                     <br />
-                    <img id="headshot" src={ this.props.headshot } alt="3/4 portrait of Bach Diep"/>
+                    <img id="headshot" src={ headshot } alt="3/4 portrait of Bach Diep"/>
                 </HomeStyles>
             </div>
         )

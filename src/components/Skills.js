@@ -4,6 +4,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGem } from '@fortawesome/free-solid-svg-icons'
 import { faHtml5, faCss3Alt, faGitAlt, faFigma, faJs, faReact, faSlack  } from '@fortawesome/free-brands-svg-icons'
 
+// import the skills icons from assets
+import illustrator from '../assets/illustrator.svg'
+import photoshop from '../assets/photoshop.svg'
+import postgresql from '../assets/postgresql.svg'
+import rubyOnRails from '../assets/ruby-on-rails.svg'
+import zoom from '../assets/zoom.svg'
+
 const SkillStyle = styled.div `
     display: flex;
     flex-wrap: wrap;
@@ -42,7 +49,6 @@ const SkillStyle = styled.div `
 class Skills extends Component {
 
     render() {
-        let {illustrator, photoshop, postgresql, rubyOnRails, zoom } = this.props
         return(
             <div>
                 <h2 id="skills">skills</h2>

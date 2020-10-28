@@ -3,6 +3,11 @@ import { Button } from 'react-bootstrap'
 import { Card } from 'react-bootstrap'
 import styled from 'styled-components'
 
+import thumbnail1 from '../assets/react-here.png'
+import thumbnail2 from '../assets/tic-tac-toe.png'
+import thumbnail3 from '../assets/pig-latin.png'
+import thumbnail4 from '../assets/rails-blog.png'
+
 const CardStyles = styled.div`
     display: flex;
     flex-wrap: wrap;
@@ -46,7 +51,6 @@ const CardStyles = styled.div`
 
 class Projects extends Component {
     render() {
-        let { thumbnail1, thumbnail2, thumbnail3, thumbnail4 } = this.props
     return (
         <div>
             <h2 id="projects">projects</h2>

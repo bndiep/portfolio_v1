@@ -3,6 +3,9 @@ import { Nav, Navbar } from 'react-bootstrap'
 import styled from 'styled-components'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHamburger, faTimes } from '@fortawesome/free-solid-svg-icons'
+
+import robot from '../assets/robot.png'
+
 const Styles = styled.div`
     .navbar {
         background-color: #FFD23F;
@@ -42,7 +45,7 @@ class NavigationBar extends Component {
         <Styles>
             <Navbar collapseOnSelect expand="lg" id="navbar">
                 <Navbar.Brand a href="/">
-                    <img src={ this.props.robot } height="40px" alt="robot logo" />
+                    <img src={ robot } height="40px" alt="robot logo" />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav">
                     <span>
